@@ -2,7 +2,7 @@ window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET
 
 var colors = ["#A109FF", "#FD372A", "#FED022", "#00C3E6",
               "#A109FF", "#FD372A", "#FED022", "#00C3E6"];
-var prizes = ["          TRENO           CONTRO", "       100%            FINO A     200 €", "75 GG", "150 GG", "    NESSUN   GUADAGNO", "         50%            FINO A       100 €", "200 GG", "        75%            FINO A      150 €"];
+var prizes = ["          TRENO           CONTRO", "       100%              FINO A       200 €", "75 GG", "150 GG", "    NESSUN   GUADAGNO", "         50%              FINO A       100 €", "200 GG", "         75%              FINO A       150 €"];
        
 var startAngle = 0*Math.PI/180;
 var arc = (2 * Math.PI) / colors.length;
