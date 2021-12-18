@@ -2,7 +2,7 @@ window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET
 
 var colors = ["#A109FF", "#FD372A", "#FED022", "#00C3E6",
               "#A109FF", "#FD372A", "#FED022", "#00C3E6"];
-var prizes = ["          TRENO           CONTRO", " 100% FINO A  200 €", "75 GG", "150 GG", "    NESSUN   GUADAGNO", " 50% FINO A  100 €", "200 GG", " 75% FINO A  150 €"];
+var prizes = ["          TRENO           CONTRO", " 100% FINO A  200 €", "75 GG", "150 GG", "   NESSUN    GUADAGNO", " 50% FINO A  100 €", "200 GG", " 75% FINO A  150 €"];
        
 var startAngle = 0*Math.PI/180;
 var arc = (2 * Math.PI) / colors.length;
@@ -27,7 +27,7 @@ function drawRouletteWheel() {
    
     ctx = canvas.getContext("2d");
     ctx.clearRect(0,0,500,500);
-    ctx.font = 'bold 14px Arial';
+    ctx.font = 'bold 13px Arial';
     ctx.textAlign = "center";
    
     for(var i = 0; i < colors.length; i++) {
@@ -170,7 +170,7 @@ function rotateWheel() {
       if($('body').hasClass('one') && !$('body').hasClass('two')) {
           if (document.documentElement.clientWidth < 992) {
             setTimeout(() => $('.this').trigger('click'), 1000);
-          } else {
+          } else {  
             setTimeout(() => $('.this').trigger('click'), 1000);
           };
         } else {
@@ -216,7 +216,7 @@ console.log("STAG -" + stag);
 
 
 $('.btn-2').click(function(){     
-    window.location.href = 'https://abocasino.biz/en-AU/users/sign_up' + stag;
+    window.location.href = 'https://abocasino.biz/it/users/sign_up' + stag;
 })
 
 

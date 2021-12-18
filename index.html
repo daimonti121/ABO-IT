@@ -24,14 +24,14 @@
 <body>
     <div class="wrapper">
         <input type="button" id="click" value="spin" style="float:left;" onclick="spin();" />
-        <img class="wrapper__background-img" src="img/wheelBg.png" alt="background">
+        <img class="wrapper__background-img" src="img/wheelBg.webp" alt="background">
         <div class="bg">
             <div class="monetki-images">
-                <img src="img/ABO.png" alt="harley" class="mon-r">
+                <img src="img/ABO.webp" alt="abo" class="mon-r">
                 <img src="img/monetki-b.png" alt="monetki" class="mon-b">
                 <img src="img/monetki-r-t.png" alt="monetki" class="mon-r-t">
                 <img src="img/monetki-c-t.png" alt="monetki" class="c-t">
-                <img src="img/elvis.png" alt="elvis" class="mon-l">
+                <img src="img/elvis.webp" alt="elvis" class="mon-l">
             </div>
         </div>
         <div class="fon">
@@ -84,21 +84,21 @@
             </div>
         </div>
     </div>
-    <button data-fancybox data-src="#animatedModal" class="none this"></button>
+    <button data-fancybox data-modal="true" data-src="#animatedModal" class="none this"></button>
     <div class="wrapper-popup none" >
         <div id="animatedModal" class="none">
             <div class="text1">Congratulazioni!</div>
             <div class="text2">Hai vinto <span> 150 GG</span>! Cerca di ottenere di più!</div>
-            <div class="btn btn-1">GIOCA</div>
+            <div class="btn btn-1" data-fancybox-close>GIOCA</div>
         </div>
     </div>
-    <button data-fancybox data-src="#animatedModal2" class="none this2"></button>
+    <button data-fancybox data-modal="true" data-src="#animatedModal2" class="none this2"></button>
     <div class="wrapper-popup none" >
         <div id="animatedModal2" >
             <div class="popupImg"><img src="img/5.webp" alt=""></div>
             <div class="text1">Oh! Il tuo bonus totale è di <span>100%</span> fino a <span>200 € </span> + <span>150 GG</span>!</div>
             <div class="text2"> Prendilo ora e goditi il gioco con Abo Casino<span>🌴</span></div>
-            <div class="btn btn-2">OTTIENI BONUS</div> 
+            <div class="btn btn-2" data-fancybox-close>OTTIENI BONUS</div> 
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
